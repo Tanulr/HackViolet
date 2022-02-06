@@ -7,7 +7,7 @@ df = pd.read_csv('baby_names.csv', usecols = ['NAME'])
 df.insert(0, 'START', df['NAME'].str[0])
 print(df)
 
-TOKEN = 'OTM5NjI4ODEzMDA3MDY5MjE0.Yf7nhg.SerV4kzXLrEGvmxLX_dRJtOnlLE'
+TOKEN = 'token provided by discord :)'
 
 client = discord.Client()
 
